@@ -111,5 +111,27 @@ Teams that pass more frequently are **significantly more likely to win**.
 * **PEI** (Passing Efficiency) → Strong positive predictor of wins  
 * **REI** (Rushing Efficiency) → Not a significant predictor  
 * **OBR** (Pass Ratio) → Highly significant predictor  
-* NFL today strongly favors **passing**, and passing metrics explain wins better than rushing  
+* NFL today strongly favors **passing**, and passing metrics explain wins better than rushing
+
+
+
+## 4. Machine Learning (ML): Logistic Regression
+
+In addition to exploratory data analysis and hypothesis testing, a machine learning method was applied to the dataset.
+
+A Logistic Regression (Lojistik Regresyon) model was used to predict game outcomes (win = 0/1) based on team-level performance metrics:
+
+- Passing Efficiency Index (PEI)
+- Rushing Efficiency Index (REI)
+- Offensive Balance Ratio (OBR)
+
+The dataset was split into training (70%) and testing (30%) sets. The model achieved an accuracy of approximately **77%**, indicating that passing- and balance-related features contain meaningful predictive power.
+
+### Model Interpretation
+
+- **PEI** has a positive coefficient, showing that higher passing efficiency increases the probability of winning.
+- **REI** has a very small effect and is not a strong predictor.
+- **OBR** has a large coefficient, indicating that pass-heavy teams are significantly more likely to win.
+
+* These results are consistent with earlier exploratory analysis and hypothesis testing, further supporting the conclusion that today’s NFL is a passing-oriented league.
 
