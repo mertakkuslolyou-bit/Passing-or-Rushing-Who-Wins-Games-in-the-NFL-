@@ -119,7 +119,7 @@ Teams that pass more frequently are **significantly more likely to win**.
 
 In addition to exploratory data analysis and hypothesis testing, a machine learning method was applied to the dataset.
 
-A Logistic Regression (Lojistik Regresyon) model was used to predict game outcomes (win = 0/1) based on team-level performance metrics:
+A Logistic Regression model was used to predict game outcomes (win = 0/1) based on team-level performance metrics:
 
 - Passing Efficiency Index (PEI)
 - Rushing Efficiency Index (REI)
