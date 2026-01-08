@@ -14,6 +14,9 @@ In this project, I analyze how passing and rushing performance affect a team’s
 - **Kaggle NFL Team Stats Dataset:** Additional datasets for older seasons (reference)
 
 ### Data Enrichment (New Measures)
+> The focus of this project is data enrichment rather than collecting a new dataset.
+> All analyses are conducted on the same NFL data source, with newly defined metrics used to capture different
+aspects of team performance.
 - **Passing Efficiency Index (PEI):** Passing yards / Passing attempts  
   Measures how efficiently a team passes.
 - **Rushing Efficiency Index (REI):** Rushing yards / Rush attempts  
