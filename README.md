@@ -133,6 +133,7 @@ Example prompts used include:
 - Debug Python environment issues related to **Anaconda Navigator**, virtual environments, and Jupyter Notebook kernels.
 - Resolve package installation problems (e.g., `scikit-learn` being installed but not recognized due to environment mismatch).
 - Assist with restarting and reconnecting Jupyter kernels when the terminal and notebook became unresponsive.
+- Assist with cleaning the notebook by identifying and removing **broken / erroneous output cells** (e.g., NameError outputs) directly on GitHub.
 
 ## How to Run
 
